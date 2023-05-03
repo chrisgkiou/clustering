@@ -23,7 +23,7 @@ def nilsimsa(input_string):
     return digest
 
 
-input_string = ('1MusKqjbk497v4Jf1bkgSpKb4aUhjzfoqA')
+input_string = ('this is another text')
 digest = nilsimsa(input_string)
 print(digest)
 

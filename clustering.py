@@ -12,15 +12,10 @@ def nilsimsa(s):
     return [int(b) for b in bin(int.from_bytes(h, 'big'))[2:].zfill(256)[:64]]
 
 
-
-
 # List of Bitcoin addresses to cluster
 addresses = [
-    'bc1qs8t9fwxy0sajzcfetw6eye2dslpfp87lkgy4pt',
-    'bc1qs8t9fwxy0sajzcfetw6eye2dslpfp87lkgy4pt',
     '1L4D4Fp4kPkVSqw1Bg4jKCLM2wZdSbckYj',
-    '12PsgKvG1cDovouzFtmBJoeFWXhkbiKxhN',
-    '1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2'
+    '12PsgKvG1cDovouzFtmBJoeFWXhkbiKxhN'
 ]
 
 # Compute Nilsimsa digests for each address
